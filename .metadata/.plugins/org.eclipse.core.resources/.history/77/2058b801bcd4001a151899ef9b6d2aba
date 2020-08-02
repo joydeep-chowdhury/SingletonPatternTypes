@@ -1,0 +1,16 @@
+import java.lang.reflect.Constructor;
+
+public class Client {
+  public static void main(String args[])
+  {
+	  Singleton inst1=Singleton.getSingleton();
+	  Singleton inst2=Singleton.getSingleton();
+	  Singleton inst3=null;
+	  Constructor<?>[] constructors=Singleton.class.getDeclaredConstructors();
+	  for(Constructor<?> cons:constructors)
+	  {
+		  cons.setAccessible(true);
+		  Object obj=cons.newInstance();
+	  }
+  }
+}

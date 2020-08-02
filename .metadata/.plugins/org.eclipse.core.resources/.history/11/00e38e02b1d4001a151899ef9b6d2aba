@@ -1,0 +1,23 @@
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class Client {
+  public static void main(String args[])
+  {
+	  ExecutorService executor=null;
+	  MyThread thread=new MyThread();
+	  try
+	  {
+		  executor=Executors.newFixedThreadPool(1);
+		  executor.execute(thread);
+	  }
+	  catch(Exception e)
+	  {
+		  e.printStackTrace();
+	  }
+	  finally {
+		  if(executor!=null)
+			  executor.shutdown();
+	  }
+  }
+}

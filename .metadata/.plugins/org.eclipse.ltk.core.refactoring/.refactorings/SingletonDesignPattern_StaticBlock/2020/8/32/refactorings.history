@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;SingletonDesignPattern_BillPugh/src&apos;&#x0D;&#x0A;- Original project: &apos;SingletonDesignPattern_StaticBlock&apos;&#x0D;&#x0A;- Destination element: &apos;SingletonDesignPattern_BillPugh/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Client.java&#x0D;&#x0A;     Singleton.java" description="Copy compilation units" destination="=SingletonDesignPattern_BillPugh/src" element1="/src&lt;{Client.java" element2="/src&lt;{Singleton.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1596368475966" units="2" version="1.0"/>
+</session>
